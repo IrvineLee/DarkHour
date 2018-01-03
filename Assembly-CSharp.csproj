@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{653DE8D0-7946-8538-C947-3541EBFBD361}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_3_5_6;UNITY_3_5;UNITY_EDITOR;ENABLE_PROFILER;UNITY_STANDALONE_WIN;ENABLE_GENERICS;ENABLE_DUCK_TYPING;ENABLE_TERRAIN;ENABLE_MOVIES;ENABLE_WEBCAM;ENABLE_MICROPHONE;ENABLE_NETWORK;ENABLE_CLOTH;ENABLE_WWW;ENABLE_SUBSTANCE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="UnityEngine">
+	  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Scripts\InGameScript\AnimatingTileTextureScript.cs" />
+     <Compile Include="Assets\Scripts\InGameScript\FlashLightFlickerScript.cs" />
+     <Compile Include="Assets\Scripts\InGameScript\LookAtScript.cs" />
+     <Compile Include="Assets\Scripts\InGameScript\PlayerStatusScript.cs" />
+     <Compile Include="Assets\Scripts\InGameScript\ShakeScript.cs" />
+     <Compile Include="Assets\Scripts\InGameScript\TriggerFlickerScript.cs" />
+     <Compile Include="Assets\Scripts\InputControls\AxisController.cs" />
+     <Compile Include="Assets\Scripts\InputControls\ClickController.cs" />
+     <Compile Include="Assets\Scripts\InputControls\InputManager.cs" />
+     <Compile Include="Assets\Scripts\InputControls\PlayerController.cs" />
+     <Compile Include="Assets\Scripts\InputControls\SwipeController.cs" />
+     <Compile Include="Assets\Scripts\Interaction\CameraRayScript.cs" />
+     <Compile Include="Assets\Scripts\Interaction\ChestBoxScript.cs" />
+     <Compile Include="Assets\Scripts\Interaction\ChestScript.cs" />
+     <Compile Include="Assets\Scripts\Interaction\CrawlScript.cs" />
+     <Compile Include="Assets\Scripts\Interaction\ExamineScript.cs" />
+     <Compile Include="Assets\Scripts\Interaction\PickUpItemScript.cs" />
+     <Compile Include="Assets\Scripts\Interaction\SlideDoorScript.cs" />
+     <Compile Include="Assets\Scripts\Interaction\WesternDoorScript.cs" />
+     <Compile Include="Assets\Scripts\MainMenu\AutoFade.cs" />
+     <Compile Include="Assets\Scripts\MainMenu\MainMenuScript.cs" />
+     <Compile Include="Assets\Scripts\Puzzles\PuzzleTimer.cs" />
+     <Compile Include="Assets\Scripts\Puzzles\RotatePuzzleController.cs" />
+     <Compile Include="Assets\Scripts\Puzzles\RotatePuzzleScript.cs" />
+     <Compile Include="Assets\Scripts\Puzzles\SlidePuzzleController.cs" />
+     <Compile Include="Assets\Scripts\Puzzles\SlidePuzzleScript.cs" />
+     <Compile Include="Assets\Scripts\Puzzles\SwapDollPuzzleController.cs" />
+     <Compile Include="Assets\Scripts\QTE\QTEDaughterScript.cs" />
+     <Compile Include="Assets\Scripts\QTE\QTEFatherScript.cs" />
+     <Compile Include="Assets\Scripts\QTE\QTEScript.cs" />
+     <Compile Include="Assets\Scripts\QTE\QTEYurikoScript.cs" />
+     <Compile Include="Assets\Scripts\QTEEvents\AttackScript.cs" />
+     <Compile Include="Assets\Scripts\QTEEvents\MoveBackScript.cs" />
+     <Compile Include="Assets\Scripts\QTEEvents\MoveScript.cs" />
+     <Compile Include="Assets\Scripts\QTEEvents\TriggerScript.cs" />
+     <Compile Include="Assets\SimpleParticlePack\Scripts\ParticleTester.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

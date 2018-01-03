@@ -1,0 +1,19 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\MainMenu\MainMenuScript.cs">
+    <Files>
+      <File FileName="Assets\Scripts\MainMenu\MainMenuScript.cs" Line="31" Column="6" />
+      <File FileName="Assets\Scripts\InGameScript\PlayerStatusScript.cs" Line="90" Column="28" />
+      <File FileName="Assets\Scripts\QTE\QTEDaughterScript.cs" Line="472" Column="195" />
+      <File FileName="Assets\Scripts\QTE\QTEFatherScript.cs" Line="282" Column="75" />
+      <File FileName="Assets\Scripts\QTEEvents\TriggerScript.cs" Line="187" Column="45" />
+      <File FileName="Assets\Scripts\InputControls\ClickController.cs" Line="29" Column="25" />
+      <File FileName="Assets\Scripts\Puzzles\RotatePuzzleScript.cs" Line="156" Column="2" />
+      <File FileName="Assets\Scripts\Puzzles\RotatePuzzleController.cs" Line="251" Column="5" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

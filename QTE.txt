@@ -1,0 +1,6 @@
+1. trigger the QTE
+2. orientate camera to the QTE position
+3. hw the ghost enter into the QTE position
+4. animation attacking with time and player counter action
+5. ghost hit script
+6. exiting QTE(result screen)
